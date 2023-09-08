@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Scoped CSS Variables and JS</title>
+        <link rel="icon" href="https://fav.farm/🔥" />
+        <link rel="stylesheet" href="src/css/style.css" />
+    </head>
+    <body>
+        <h2>Update CSS Variables with <span class="hl">JS</span></h2>
+
+        <div class="controls">
+            <label for="spacing">Spacing:</label>
+            <input
+                id="spacing"
+                type="range"
+                name="spacing"
+                min="10"
+                max="200"
+                value="10"
+                data-sizing="px"
+            />
+
+            <label for="blur">Blur:</label>
+            <input
+                id="blur"
+                type="range"
+                name="blur"
+                min="0"
+                max="25"
+                value="10"
+                data-sizing="px"
+            />
+
+            <label for="base">Base Color</label>
+            <input id="base" type="color" name="base" value="#ffc600" />
+        </div>
+
+        <img
+            width="700"
+            src="https://images.unsplash.com/photo-1682695794816-7b9da18ed470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        />
+
+        <script src="src/Js/main.js"></script>
+    </body>
+</html>
