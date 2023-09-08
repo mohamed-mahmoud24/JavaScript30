@@ -1,7 +1,7 @@
 # JavaScript30
 
-$~~~$ 30 mini Js Projects
-course link :- [Javascript30](https://javascript30.com/)
+$~~~$ 30 Day Vanilla JS Coding Challenge
+with [Javascript30](https://javascript30.com/)
 
 ## DEMOS
 
