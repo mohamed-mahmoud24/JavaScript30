@@ -10,9 +10,16 @@ html {
     box-sizing: inherit;
 }
 
+button {
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
 body {
     padding: 0;
     margin: 0;
+    text-align: center;
     font-family: 'Amatic SC', cursive;
 }
 
