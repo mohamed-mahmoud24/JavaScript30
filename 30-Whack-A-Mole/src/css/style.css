@@ -39,7 +39,7 @@ h1 {
 
 .game {
     width: 600px;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -65,7 +65,7 @@ h1 {
 
 .mole {
     background: url(../Images/mole.svg) bottom center no-repeat;
-    background-size: 60%;
+    background-size: 50%;
     position: absolute;
     top: 100%;
     width: 100%;
